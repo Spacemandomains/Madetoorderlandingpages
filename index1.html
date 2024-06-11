@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sell Made-to-Order!</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .video-container {
+      flex: 1;
+      margin-right: 20px; /* Adjust as needed */
+    }
+    .intro-container {
+      flex: 1;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .video-container, .intro-container {
+        flex: auto;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bring Your 3D Fashion Ideas to Life – Sell as Made-to-Order!</h1>
+  </header>
+  
+  <div class="container">
+    <div class="video-container">
+      <section class="video">
+        <h2 style="color: #06AB78;">3D Fashion turned into Made to Order fast!</h2>
+        <video controls width="600">
+          <source src="s3://madetoorderlandingpage/madetoorderlandingpage/Made to Order Polo Shirt.m4v" type="video/mov">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </div>
+
+    <div class="intro-container">
+      <section class="intro">
+        <h2>Made to Order for Desingers of Clo 3D and Style3D</h2>
+        <p>Use our Made to Order SaaS to embed your 3D fashion designs from Clo 3D and Style3D to create your online store, where our expert team transforms them into made to measure garments and have them delivered to you or your customers.</p> 
+        
+        <h1 style="font-size: 20px;">This Product Supports Stripe's Climate Initiative</h1>
+          <img src="https://support.newhorizoncode.io/hc/article_attachments/8151907881615" alt="Stripe Climate Badge" style="width: 15%; display: block; margin: 0 auto;">
+          <p>Made to Order promotes sustainability by reducing waste through personalized production, ensuring resources are used efficiently to meet individual customer needs. Made to Order (MTO) reduces waste by producing items only when they are ordered, minimizing excess inventory and the associated waste that comes from overproduction. help prevent the accumulation of unsold products, reducing the need for excess raw materials, energy, and resources.</p>
+        </section>
+    </div>
+  </div>
+
+  
+
+  <section class="cta">
+    <h2>Start Today and Save 26%!</h2>
+    <p>On your yearly online store costs. Pay only once for your online store.</p>
+  </section>
+
+  <section class="pricing-table">
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <stripe-pricing-table pricing-table-id="prctbl_1PPyWkIn52oBHUaHQOmJ45Wl"
+    publishable-key="pk_live_51OPRO0In52oBHUaHQYu5fIBTEKUg9s2eQ3mHkzhk7TTqIs1GGshI6X81a6mYwDuOGYXh1Mgz7JN9UxdeeqjX6wgG00YMI3DhGM">
+    </stripe-pricing-table>
+  </section>
+
+  <footer>
+    <!-- <section class="testimonials">
+      <h2>Testimonials</h2>
+      <p>Watch our video, check out <a href="https://your-photo-gallery-url" target="_blank">before-and-after photos</a>, and read testimonials from designers who’ve made their visions a reality with us.</p>
+    </section> -->
+    <p>&copy; 2024 The Winners Circle. All rights reserved.</p>
+  </footer>
+</body>
+</html>
